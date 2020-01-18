@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+body {
+  background-color: #bdbfd3;
+  font-family: 'Gelasio', serif;
+}
+
+.banner {
+  margin: 6rem;
+}
+
+.banner .banner-text h6 {
+  margin-bottom: 1.5rem;
+}
+
+.banner .banner-text h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border-radius: 0px;
+  background-color: #d0d6e7;
+}
+
+.nav-item {
+  padding: 1.0rem;
+}
+
+.nav-item a {
+  color: black !important;
+}
+
+/* Menu */
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu .menu-background {
+  height: 300px;
+  width: 35%;
+  background-color: #7a7b8f;
+}
+/*# sourceMappingURL=index.css.map */
