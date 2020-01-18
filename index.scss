@@ -35,9 +35,30 @@ body{
 /* Menu */
 .menu{
     display: flex;
-    .menu-background{
-        height: 300px;
-        width: 35%;
+    .img{
+        width: 40rem;
+        height: 20rem;
+        position: relative;
+    }
+    .bg-panel{
         background-color: rgb(122, 123, 143);
+        position: absolute;
+        width: 540px;
+        height: 330px;
+        right: -1px; top: 9%;
+        margin-left: 160px;
+        z-index: -1;
+    }
+    .time{
+       padding: 6rem;
+       h6{
+         margin-bottom:  2rem; 
+       }
+       .table{
+           td{
+            border-top: 0px;
+
+           }
+       }
     }
 }

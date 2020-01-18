@@ -37,9 +37,32 @@ body {
   display: flex;
 }
 
-.menu .menu-background {
-  height: 300px;
-  width: 35%;
+.menu .img {
+  width: 40rem;
+  height: 20rem;
+  position: relative;
+}
+
+.menu .bg-panel {
   background-color: #7a7b8f;
+  position: absolute;
+  width: 540px;
+  height: 330px;
+  right: -1px;
+  top: 9%;
+  margin-left: 160px;
+  z-index: -1;
+}
+
+.menu .time {
+  padding: 6rem;
+}
+
+.menu .time h6 {
+  margin-bottom: 2rem;
+}
+
+.menu .time .table td {
+  border-top: 0px;
 }
 /*# sourceMappingURL=index.css.map */
