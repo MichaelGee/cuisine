@@ -5,7 +5,8 @@ body {
 }
 
 .banner {
-  margin: 6rem;
+  margin: 6rem 0;
+  padding: 3rem;
 }
 
 .banner .banner-text h6 {
@@ -38,8 +39,8 @@ body {
 }
 
 .menu .img {
-  width: 40rem;
-  height: 20rem;
+  width: 100%;
+  height: auto;
   position: relative;
 }
 
@@ -48,8 +49,8 @@ body {
   position: absolute;
   width: 540px;
   height: 330px;
-  right: -1px;
-  top: 9%;
+  right: -3px;
+  top: 11%;
   margin-left: 160px;
   z-index: -1;
 }
