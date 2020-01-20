@@ -97,8 +97,29 @@ body {
   width: 100%;
 }
 
-.last-text {
+.image-container .last-text {
   margin-top: 10rem;
+  margin-bottom: 10rem;
   font-size: 2rem;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #f3f4f7;
+}
+
+.footer-container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6rem;
+}
+
+.footer-container .footer .footer, .footer-container .footer a {
+  text-decoration: none !important;
+  color: black !important;
 }
 /*# sourceMappingURL=index.css.map */

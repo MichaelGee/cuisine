@@ -87,10 +87,29 @@ body{
             width: 100%;
         }
     }
+    .last-text{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        font-size: 2rem;
+    }
 }
 
-.last-text{
-    margin-top: 10rem;
-    font-size: 2rem;
+
+
+/* Footer */
+.footer-container{
+    background-color: rgb(243, 244, 247);
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 6rem;
+        .footer, a{
+            text-decoration: none !important;
+            color: black !important;
+          }    
+      }
 }
+  
+  
+   
 
