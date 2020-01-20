@@ -66,4 +66,39 @@ body {
 .menu .time .table td {
   border-top: 0px;
 }
+
+/* Third section */
+.image-container h3 {
+  font-size: 3rem;
+}
+
+.image-container .images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.image-container .images .img1 {
+  width: 100%;
+}
+
+.image-container .images .img2 {
+  width: 100%;
+}
+
+.image-container .images .img3 {
+  width: 100%;
+}
+
+.image-container .images .img4 {
+  width: 100%;
+}
+
+.last-text {
+  margin-top: 10rem;
+  font-size: 2rem;
+}
 /*# sourceMappingURL=index.css.map */

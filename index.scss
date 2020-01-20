@@ -63,3 +63,34 @@ body{
        }
     }
 }
+
+/* Third section */
+.image-container{
+    h3{
+        font-size: 3rem;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        .img1{
+            width: 100%;
+        }
+        .img2{
+            width: 100%;
+        }
+        .img3{
+            width: 100%;
+        }
+        .img4{
+            width: 100%;
+        }
+    }
+}
+
+.last-text{
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+
