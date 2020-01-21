@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
 body {
   background-color: #bdbfd3;
-  font-family: 'Gelasio', serif;
+  font-family: 'PT Serif', serif;
 }
 
 .banner {
@@ -11,11 +12,13 @@ body {
 
 .banner .banner-text h6 {
   margin-bottom: 1.5rem;
+  font-family: 'Gelasio', serif;
 }
 
 .banner .banner-text h1 {
   font-size: 5rem;
   margin-bottom: 2rem;
+  font-family: 'Gelasio', serif;
 }
 
 .banner .banner-btn {
@@ -59,8 +62,13 @@ body {
   padding: 6rem;
 }
 
+.menu .time h2 {
+  font-family: 'Gelasio', serif;
+}
+
 .menu .time h6 {
   margin-bottom: 2rem;
+  font-family: 'Gelasio', serif;
 }
 
 .menu .time .banner-btn {
@@ -75,6 +83,7 @@ body {
 /* Third section */
 .image-container h3 {
   font-size: 3rem;
+  font-family: 'Gelasio', serif;
 }
 
 .image-container .images {
@@ -103,6 +112,7 @@ body {
 }
 
 .image-container .last-text {
+  font-family: 'Gelasio', serif;
   margin-top: 10rem;
   margin-bottom: 10rem;
   font-size: 2rem;
