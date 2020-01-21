@@ -18,7 +18,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.btn {
+.banner .banner-btn {
   border-radius: 0px;
   background-color: #d0d6e7;
 }
@@ -61,6 +61,11 @@ body {
 
 .menu .time h6 {
   margin-bottom: 2rem;
+}
+
+.menu .time .banner-btn {
+  border-radius: 0px;
+  background-color: #d0d6e7;
 }
 
 .menu .time .table td {
@@ -121,5 +126,53 @@ body {
 .footer-container .footer .footer, .footer-container .footer a {
   text-decoration: none !important;
   color: black !important;
+}
+
+/* Media queries */
+@media screen and (max-width: 767px) {
+  .banner .banner-text h1 {
+    font-size: 2rem;
+  }
+  .banner .banner-btn {
+    font-size: 1rem;
+  }
+  .image-container h3 {
+    font-size: 2rem;
+  }
+  .image-container .last-text {
+    text-align: center;
+  }
+  .time .banner-btn {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .menu .bg-panel {
+    display: none;
+  }
+  .menu .time {
+    padding: 1rem;
+  }
+  .menu .time .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu .time .button .banner-btn {
+    width: 60%;
+  }
+  .image-container h3 {
+    text-align: center;
+  }
+  .image-container p {
+    text-align: center;
+  }
+  .footer-container .footer {
+    padding: 2rem;
+  }
 }
 /*# sourceMappingURL=index.css.map */
