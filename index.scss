@@ -179,11 +179,13 @@ body{
     }
 
     .image-container{
+        margin-top: 2rem;
         h3{
             text-align: center;
         }
         p{
             text-align: center;
+            margin-bottom: 2rem;
         }
     }
 
@@ -196,5 +198,45 @@ body{
 }
 
   
-   
+@media screen and (max-width: 500px){
+    .image-container{
+        text-align: center;
+        h3{
+            font-size: 2rem;
+        }
+        .last-text{
+            font-size: 1.2rem;
+            margin-top: 5rem;
+           margin-bottom: 5rem;
+        }
+    }
+    .footer-container{
+        .footer{
+            padding: 2rem;
+            h5{
+                font-size: 1rem;
+               
+            }
+            a{
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .image-container{
+        h3{
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+    }
+
+    .menu{
+        .time{
+            h2{
+                font-size: 1.8rem !important;
+                font-weight: bold;
+            }
+        }
+    }
+}   
 
